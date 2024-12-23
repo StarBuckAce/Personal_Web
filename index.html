@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyProfile</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">KnowMe.</a>
+    <nav class="navbar">
+        <a href="#home" style="--i:1" class="active">Home</a>
+        <a href="#about" style="--i:2">About</a>
+        <a href="#skills" style="--i:3">Skills</a>
+        <a href="#contact" style="--i:4">Contact</a>
+    </nav>
+
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Madhaesh Parasuraman</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>Passionate Computer Science Engineering student specializing in Artificial Intelligence and Data Science.
+        </p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/madhaesh-parasuraman-93a42824a/" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/StarBuckAce" style="--i:8"><i class='bx bxl-github' ></i></a>
+            
+        </div>
+        <a href="https://drive.google.com/file/d/1VjkvuYa8Vnb-Q4JOfRZQEJNgWDFER1DI/view?usp=sharing" class="btn">
+            Download CV
+        </a>
+
+       
+    </div>
+    <div class="home-img">
+      <img src="images/image.jpg" alt="">
+    </div>
+  </section>
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I am Madhaesh Parasuraman, a passionate Computer Science Engineering student with a keen interest in Artificial Intelligence and Data Science. I strive to create innovative solutions that blend technology and creativity to solve real-world problems.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="skills" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-content">
+      <div class="skill-item">
+        <i class='bx bxl-c-plus-plus' style="font-size: 60px;"></i>
+        <p>C++</p>
+      </div>
+      <div class="skill-item">
+        <i class='bx bxl-python' style="font-size: 60px;"></i>
+        <p>Python</p>
+      </div>
+      <div class="skill-item">
+        <i class='bx bxl-css3' style="font-size: 60px;"></i>
+        <p>CSS</p>
+      </div>
+      <div class="skill-item">
+        <i class='bx bxl-javascript' style="font-size: 60px;"></i>
+        <p>JavaScript</p>
+      </div>
+      <div class="skill-item">
+        <i class='bx bxl-html5' style="font-size: 60px;"></i>
+        <p>HTML</p>
+      </div>
+      <div class="skill-item">
+        <i class='bx bxl-java' style="font-size: 60px;"></i>
+        <p>Java</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-content">
+      <p>If you’d like to get in touch, feel free to reach out through the following:</p>
+      <div class="contact-buttons">
+        <button onclick="window.location.href='mailto:madhaeshparasu@gmail.com'" class="contact-btn">
+          <i class='bx bxs-envelope'></i> Email Me
+        </button>
+        <button onclick="window.location.href='tel:+91 8438729950'" class="contact-btn">
+          <i class='bx bxs-phone'></i> Call Me
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
